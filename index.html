@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>神山まるごと高専 | 紹介サイト</title>
+    <meta
+      name="description"
+      content="神山まるごと高専の学校概要、学び、キャンパス環境を紹介するページです。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <div class="container nav-wrap">
+        <a class="brand" href="#top" aria-label="ページ先頭へ">神山まるごと高専</a>
+        <button
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+          aria-label="メニューを開く"
+          type="button"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="primary-nav" id="primary-navigation">
+          <a href="#about">学校概要</a>
+          <a href="#curriculum">カリキュラム</a>
+          <a href="#campus">キャンパス</a>
+          <a href="#staff">教員・スタッフ</a>
+          <a href="#footer">SNS</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero reveal" id="hero">
+        <div class="container hero-inner">
+          <p class="hero-kicker">KAMIYAMA MARUGOTO KOSEN</p>
+          <h1>神山まるごと高専</h1>
+          <!-- TODO: キャッチコピー差し替え -->
+          <p class="hero-copy">テクノロジーと起業家精神で、未来を創る。</p>
+          <a class="cta-button" href="#about">もっと見る</a>
+        </div>
+        <a class="scroll-indicator" href="#about" aria-label="学校概要へスクロール">
+          <span>SCROLL</span>
+          <span class="arrow" aria-hidden="true"></span>
+        </a>
+      </section>
+
+      <section class="section section-alt reveal" id="about">
+        <div class="container">
+          <div class="section-head">
+            <h2>学校概要・理念</h2>
+            <p>
+              神山まるごと高専は、テクノロジー・デザイン・起業家精神を横断し、
+              実社会の課題解決に挑む人材を育てることを目指しています。
+            </p>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true">⚙</div>
+              <h3>実践中心の学び</h3>
+              <p>
+                プロジェクト型学習を軸に、つくりながら考える姿勢を重視。
+                基礎から応用まで段階的に力を伸ばします。
+              </p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true">◇</div>
+              <h3>領域横断の教育</h3>
+              <p>
+                テクノロジーだけでなく、デザインや社会実装の視点を取り入れ、
+                価値を生む思考を育てます。
+              </p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true">↗</div>
+              <h3>挑戦を支える環境</h3>
+              <p>
+                小さく試し、改善し、発信する。挑戦を前向きに捉える文化が、
+                一歩先の成長を後押しします。
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="curriculum">
+        <div class="container">
+          <div class="section-head">
+            <h2>カリキュラム・学び</h2>
+            <p>3つの領域を行き来しながら、社会に届くプロダクトづくりを学びます。</p>
+          </div>
+          <div class="curriculum-grid">
+            <article class="curriculum-card">
+              <h3>テクノロジー</h3>
+              <p>
+                プログラミング、ネットワーク、データ活用などの基礎技術を体系的に学び、
+                課題解決のための実装力を身につけます。
+              </p>
+            </article>
+            <article class="curriculum-card">
+              <h3>デザイン</h3>
+              <p>
+                観察・検証・改善のプロセスを通じて、使い手の視点に立った
+                情報設計と体験設計を実践的に学習します。
+              </p>
+            </article>
+            <article class="curriculum-card">
+              <h3>起業家精神</h3>
+              <p>
+                仮説立案から価値提案、発信までを経験し、
+                自ら機会を見つけて形にする姿勢を養います。
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt reveal" id="campus">
+        <div class="container">
+          <div class="section-head">
+            <h2>キャンパス・施設</h2>
+            <p>
+              徳島県神山町の自然と共に学ぶ環境。集中と対話を両立できる空間で、
+              日々の学びと制作に取り組みます。
+            </p>
+          </div>
+          <div class="campus-grid">
+            <div class="campus-image-wrap">
+              <img
+                src="https://kamiyama.ac.jp/assets/images/ogp.jpg"
+                alt="神山まるごと高専のイメージ"
+                loading="lazy"
+              />
+              <p class="caption">公式サイト掲載画像（後で差し替え可能）</p>
+            </div>
+            <div class="campus-map-wrap">
+              <iframe
+                title="徳島県神山町の地図"
+                src="https://www.google.com/maps?q=%E5%BE%B3%E5%B3%B6%E7%9C%8C%E7%A5%9E%E5%B1%B1%E7%94%BA&output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="staff">
+        <div class="container">
+          <div class="section-head">
+            <h2>教員・スタッフ紹介</h2>
+            <p>現在はプレースホルダーを掲載しています。後から実データに差し替え可能です。</p>
+          </div>
+          <div class="staff-grid">
+            <article class="staff-card">
+              <img
+                src="https://via.placeholder.com/320x240.png?text=Staff+Photo"
+                alt="教員写真プレースホルダー"
+                loading="lazy"
+              />
+              <div>
+                <h3>山田 太郎</h3>
+                <p>テクノロジー領域 教員</p>
+              </div>
+            </article>
+            <article class="staff-card">
+              <img
+                src="https://via.placeholder.com/320x240.png?text=Staff+Photo"
+                alt="教員写真プレースホルダー"
+                loading="lazy"
+              />
+              <div>
+                <h3>佐藤 花子</h3>
+                <p>デザイン領域 教員</p>
+              </div>
+            </article>
+            <article class="staff-card">
+              <img
+                src="https://via.placeholder.com/320x240.png?text=Staff+Photo"
+                alt="スタッフ写真プレースホルダー"
+                loading="lazy"
+              />
+              <div>
+                <h3>鈴木 一郎</h3>
+                <p>起業家精神領域 スタッフ</p>
+              </div>
+            </article>
+            <article class="staff-card">
+              <img
+                src="https://via.placeholder.com/320x240.png?text=Staff+Photo"
+                alt="スタッフ写真プレースホルダー"
+                loading="lazy"
+              />
+              <div>
+                <h3>高橋 未来</h3>
+                <p>学習支援スタッフ</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="footer">
+      <div class="container footer-inner">
+        <div class="footer-info">
+          <h2>神山まるごと高専</h2>
+          <p>〒771-3310 徳島県名西郡神山町神領字西上角 175-1</p>
+          <p>一般向け紹介ページ（非公式デモ）</p>
+        </div>
+        <nav class="footer-sns" aria-label="SNSリンク">
+          <a href="https://x.com/kamiyama_kosen" target="_blank" rel="noopener noreferrer">Twitter/X</a>
+          <a href="https://www.instagram.com/kamiyama_kosen/" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a
+            href="https://www.youtube.com/channel/UCiXJqtlq4-Th1z8hwFdpDWg"
+            target="_blank"
+            rel="noopener noreferrer"
+            >YouTube</a
+          >
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <small>&copy; 2026 神山まるごと高専 Introduction Page</small>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
